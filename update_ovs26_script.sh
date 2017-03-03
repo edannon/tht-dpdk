@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eux
+set -x
 
 function get_core_mask() {
     local list=$1
